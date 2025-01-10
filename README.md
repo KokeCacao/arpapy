@@ -1,27 +1,19 @@
-# KokiKit
-A General NeRF and Diffusion Toolkit for [KatUI](https://github.com/KokeCacao/KatUI)
+# arpapy
+
+Multilingual text/IPA to ARPAbet G2P for text2speech generation.
 
 ## Installation
 ```bash
-# for production
-pip install "kokikit[full] @ git+https://github.com/KokeCacao/kokikit.git"
+sudo apt install espeak-ng
+pip install arpapy
+```
 
-# if you only want diffusion stuff
-pip install "kokikit[diffusion] @ git+https://github.com/KokeCacao/kokikit.git"
+## Quick Start
+```python
+from arpapy import get_arpa
 
-# if you only want nerf stuff
-pip install "kokikit[nerf] @ git+https://github.com/KokeCacao/kokikit.git"
-
-# if you only want nerf and reconstruction stuff
-pip install "kokikit[reconstruction] @ git+https://github.com/KokeCacao/kokikit.git"
-
-# for developers who intend to edit the module (but pylance will lint incorrectly)
-git clone https://github.com/KokeCacao/kokikit.git
-pip install -e .
-
-# for developers who want local install (but changes won't automatically reflected)
-git clone https://github.com/KokeCacao/kokikit.git
-pip install .
+s: str = '"Marron glacé is in my DNA." adiós'
+print(get_arpa(s)) # ['M', 'AA1', 'R', 'AX0', 'N', '/', 'G', 'L', 'AA0', 'S', 'EY1', '/', 'IH0', 'Z', '/', 'IH0', 'N', '/', 'M', 'AY0', '/', 'D', 'IY2', 'EH2', 'N', 'EY1', '-', 'EY1', 'D', 'IH0', 'AX2', 'UH0', 'Z']
 ```
 
 ## Citation
@@ -29,11 +21,11 @@ pip install .
 See [CREADITS.md](CREDITS.md) for all credits.
 
 ```
-@misc{kokikit,
-  title={KokiKit: A General NeRF and Diffusion Toolkit},
+@misc{arpapy,
+  title={arpapy: Multilingual text/IPA to ARPAbet G2P for text2speech generation.},
   author={Koke_Cacao},
-  year={2023},
-  howpublished={\url{https://github.com/KokeCacao/kokikit}},
+  year={2025},
+  howpublished={\url{https://github.com/KokeCacao/arpapy}},
   note={Open-source software}
 }
 ```
