@@ -62,6 +62,7 @@ consonants = [
     Phoneme(arpabet='N', ipa='n', is_vowel=False),
     Phoneme(arpabet='N', ipa='ɳ', is_vowel=False),  # added by Koke_Cacao
     Phoneme(arpabet='NX', ipa='ŋ', is_vowel=False),  # modified by Koke_Cacao
+    Phoneme(arpabet='NX', ipa='ɴ', is_vowel=False),  # added by Koke_Cacao
     Phoneme(arpabet='P', ipa='p', is_vowel=False),
     Phoneme(arpabet='Q', ipa='ʔ', is_vowel=False),
     Phoneme(arpabet='R', ipa='ɹ', is_vowel=False),
@@ -73,6 +74,7 @@ consonants = [
     Phoneme(arpabet='T', ipa='t', is_vowel=False),
     Phoneme(arpabet='TH', ipa='θ', is_vowel=False),
     Phoneme(arpabet='V', ipa='v', is_vowel=False),
+    Phoneme(arpabet='V', ipa='ᵝ', is_vowel=False), # added by Koke_Cacao
     Phoneme(arpabet='W', ipa='w', is_vowel=False),
     Phoneme(arpabet='WH', ipa='ʍ', is_vowel=False),
     Phoneme(arpabet='Y', ipa='j', is_vowel=False),

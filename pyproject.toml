@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "arpapy"
 version = "0.0.1"
 dependencies = [
+  "pykakasi",
 ]
 requires-python = ">=3.8"
 authors = [{ name = "Koke_Cacao", email = "i@kokecacao.me" }]
