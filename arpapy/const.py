@@ -36,6 +36,7 @@ vowels = [
     Phoneme(arpabet='UH', ipa='ʊ', is_vowel=True),
     Phoneme(arpabet='UH', ipa='ɵ', is_vowel=True),  # added by Koke_Cacao
     Phoneme(arpabet='UH', ipa='ɘ', is_vowel=True),  # added by Koke_Cacao
+    Phoneme(arpabet='UH', ipa='ᵻ', is_vowel=True),  # added by Koke_Cacao
     Phoneme(arpabet='UH', ipa='ø', is_vowel=True),  # added by Koke_Cacao
     Phoneme(arpabet='UW', ipa='u', is_vowel=True),
     Phoneme(arpabet='UW', ipa='ɯ', is_vowel=True),  # added by Koke_Cacao
